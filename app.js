@@ -3,7 +3,7 @@ const app = Vue.createApp({
     return {
       counter: 0,
     };
-  },mehtods:{
+  },methods:{
     add(num){
      this.counter =  this.counter + num;
     },
