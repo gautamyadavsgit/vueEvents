@@ -3,12 +3,12 @@ const app = Vue.createApp({
     return {
       counter: 0,
     };
-  },mehtods:{
+  },
+  methods:{
     add(){
-      this.counter++;
-    },
-    reduce(){
-      this.counter--;
+      this.counter =  this.counter + 1;
+    },reduce(){
+      this.counter = this.counter - 1;
     }
   }
 });
