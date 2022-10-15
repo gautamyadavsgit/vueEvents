@@ -3,9 +3,13 @@ const app = Vue.createApp({
     return {
       name : "",
       counter: 0,
+      confirmedName:'',
     };
   },
   methods: {
+    setconfirmedName(){
+      this.confirmedName = this.name;
+    },
     setName(event,lastname) {
     this.name = event.target.value + " " + lastname;
     },
