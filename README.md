@@ -12,5 +12,5 @@ v-on:submit.prevent // prevent defautl form submit reload
 
 v-on:click.right // mouse right key pressed .left for left andt .middile for middle
 
-
+v-model // uses for two binding.. 
 
