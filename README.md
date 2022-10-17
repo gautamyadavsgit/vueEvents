@@ -12,5 +12,10 @@ v-on:submit.prevent // prevent defautl form submit reload
 
 v-on:click.right // mouse right key pressed .left for left andt .middile for middle
 
-v-model // uses for two binding.. 
+v-model // uses for two binding..
 
+computed:{
+
+}
+
+computed properties or simmillar as methods but its only execute single time
