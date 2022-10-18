@@ -21,3 +21,8 @@ computed:{
 computed properties or simmillar as methods but its only execute single time
 
 watchers => watcher ares functions used to tell vue when one of its dependencies change
+
+// shorthand for v-bind and v-on 
+
+v-bind = :
+v-on = @
